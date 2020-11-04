@@ -15,7 +15,6 @@ public class CurrentTimeJava8 {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
         String formattedTime=localTime.format(formatter);
         System.out.println("Current time of the day in Los Angeles: " + formattedTime);
-
     }
     public static void getCurrentTimeWithOffset(){
         System.out.println("-----Current time of different offset-----");
@@ -25,7 +24,6 @@ public class CurrentTimeJava8 {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("hh:mm a");
         String formattedTime=offsetTime.format(formatter);
         System.out.println("Current time of the day with offset -08:00: " + formattedTime);
-
     }
 }
 
